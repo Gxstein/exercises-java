@@ -16,4 +16,7 @@ public class Product {
         this.quantity -= quantity;
         // recebe ele mesmo menos a quantidade
     }
+    public String toString(){
+        return name + ", $ " + String.format("%.2f", price) + ", " + quantity + " units, Total: $ "  + totaValueInStock();
+    }
 }
