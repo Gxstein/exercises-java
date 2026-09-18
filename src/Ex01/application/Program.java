@@ -1,6 +1,6 @@
-package application;
+package Ex01.application;
 
-import entities.Product;
+import Ex01.entities.Product;
 
 import java.util.Locale;
 import java.util.Scanner;
