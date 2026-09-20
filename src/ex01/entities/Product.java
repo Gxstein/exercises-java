@@ -5,23 +5,23 @@ public class Product {
     private double price;
     private int quantity;
 
-    public void setName(String name){
+    public void setName(String name) {
         this.name = name;
     }
 
-    public String getName(){
-        return name;
-    }
-
-    public void setPrice(double price){
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public double getPrice(){
+    public String getName() {
+        return name;
+    }
+
+    public double getPrice() {
         return price;
     }
 
-    public int getQuantity(){
+    public int getQuantity() {
         return quantity;
     }
 
