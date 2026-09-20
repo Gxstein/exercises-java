@@ -20,6 +20,11 @@ public class Program {
 
         Product product = new Product(name, price, quantity);
 
+        // GET /  SET
+        product.setName("Computer");
+        System.out.println("Update name: " + product.getName());
+        product.setPrice(20000);
+        System.out.println("Update name: " + product.getPrice());
         System.out.println();
         System.out.print("Product data: " + product);
 
