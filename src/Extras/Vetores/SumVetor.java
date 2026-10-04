@@ -37,6 +37,7 @@ public class SumVetor {
 
         System.out.println();
         System.out.print("SOMA = " + sum);
+
         System.out.println();
         System.out.print("MEDIA = " + avg);
     }
