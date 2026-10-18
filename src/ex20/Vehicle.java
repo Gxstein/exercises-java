@@ -1,4 +1,4 @@
-package ex20.entities;
+package ex20;
 
 public class Vehicle {
     private String model;
